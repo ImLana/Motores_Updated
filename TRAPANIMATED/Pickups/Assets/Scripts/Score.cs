@@ -13,8 +13,9 @@ public class Score : MonoBehaviour
     public KeyCode fireKey;
     public KeyCode trapKey;
 
-    public GameObject trap;
-    public float trapDisplacement;
+    public GameObject Trap;
+    public Vector3 displacementFromTrap;
+
 
 
     // Use this for initialization
@@ -31,7 +32,7 @@ public class Score : MonoBehaviour
             if (count >= 500)
             {
                 count = count - 500;
-                Instantiate(trap, transform.position + (transform.forward * 1), transform.rotation);
+                Instantiate(Trap, transform.position + displacementFromTrap + (transform.forward * 2), transform.rotation);
                 SetCountText();
             }
 
@@ -42,6 +43,7 @@ public class Score : MonoBehaviour
             count = count + 100;
             SetCountText();
             trigger = false;
+            
         }
     }
 

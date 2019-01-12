@@ -643,8 +643,8 @@ MonoBehaviour:
   countText: {fileID: 1005735012}
   fireKey: 118
   trapKey: 98
-  trap: {fileID: 1315060851562358, guid: 81488baac9a25dc46be483cc7e756dfb, type: 2}
-  trapDisplacement: 2
+  Trap: {fileID: 1315060851562358, guid: 81488baac9a25dc46be483cc7e756dfb, type: 2}
+  displacementFromTrap: {x: 0, y: -1.3, z: 0}
 --- !u!54 &616546860
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1423,7 +1423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d65e4957a9c90b46b5ee28c8ab3c66b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLeft: 10
+  timeLeft: 60
   countdownText: {fileID: 1242647132}
   panel: {fileID: 168775292}
 --- !u!114 &1242647132
@@ -2442,8 +2442,8 @@ MonoBehaviour:
   countText: {fileID: 1450796069}
   fireKey: 305
   trapKey: 303
-  trap: {fileID: 1315060851562358, guid: 81488baac9a25dc46be483cc7e756dfb, type: 2}
-  trapDisplacement: 0
+  Trap: {fileID: 1315060851562358, guid: 81488baac9a25dc46be483cc7e756dfb, type: 2}
+  displacementFromTrap: {x: 0, y: -1.3, z: 0}
 --- !u!65 &1894765137
 BoxCollider:
   m_ObjectHideFlags: 0
