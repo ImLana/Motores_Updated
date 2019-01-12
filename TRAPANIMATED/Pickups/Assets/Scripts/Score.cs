@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Score : MonoBehaviour
 {
-
+    /*
     private int count;
     public string name;
     public Text countText;
@@ -57,4 +57,5 @@ public class Score : MonoBehaviour
             treasure = other.gameObject;
         }
     }
+    */
 }

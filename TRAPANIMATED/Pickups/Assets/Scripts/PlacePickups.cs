@@ -10,6 +10,8 @@ public class PlacePickups : MonoBehaviour
     private List<GameObject> InnactivePickups;
     private float lastUpdateTime;
 
+    private bool itWasDone;
+
     // Use this for initialization
     void Start()
     {
@@ -29,12 +31,31 @@ public class PlacePickups : MonoBehaviour
 
     }
 
+
+    public void PickItUp(GameObject target)
+    {
+        InnactivePickups.Add(target);
+        target.SetActive(false);
+
+        itWasDone = true;
+
+        for (int i = 0; i < InnactivePickups.Count; i++)
+        {
+            // Debug.Log( i + " - " + InnactivePickups[i].transform.name);
+        }
+    } 
+
     private void Update()
     {
-        if (Time.time - lastUpdateTime >= reactivateDelay)
+        if (itWasDone == true)
         {
-            InstantiateMissingObjects();
-            lastUpdateTime = Time.time;
+            if (Time.time - lastUpdateTime >= reactivateDelay)
+            {
+                InstantiateMissingObjects();
+                lastUpdateTime = Time.time;
+
+                Debug.Log("It is being done " + itWasDone);
+            }
         }
     }
 
@@ -44,17 +65,6 @@ public class PlacePickups : MonoBehaviour
         {
             thisObject.SetActive(true);
             InnactivePickups.Remove(thisObject);
-        }
-    }
-
-    public void PickItUp(GameObject target)
-    {
-        InnactivePickups.Add(target);
-        target.SetActive(false);
-
-       for (int i = 0; i < InnactivePickups.Count; i++)
-        {
-        // Debug.Log( i + " - " + InnactivePickups[i].transform.name);
         }
     }
 }
