@@ -10,8 +10,11 @@ public class Score : MonoBehaviour
     public string name;
     public Text countText;
     private bool trigger;
-    private GameObject treasure;
     public KeyCode fireKey;
+    public KeyCode trapKey;
+
+    public GameObject trap;
+    public int trapDisplacement;
 
     // Use this for initialization
     void Start()
@@ -22,6 +25,16 @@ public class Score : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(trapKey))
+        {
+            if (count >= 500)
+            {
+                count = count - 500;
+                SetCountText();
+            }
+
+        }
+
         if (trigger && Input.GetKeyDown(fireKey))
         {
             count = count + 100;

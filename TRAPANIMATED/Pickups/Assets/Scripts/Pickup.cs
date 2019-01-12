@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class Pickup : MonoBehaviour
 {
-    public KeyCode fireKey;
+    
 
     private PlacePickups Manager;
-    private bool isColliding;
+    private bool racoonCol;
+    private bool foxCol;
+    private bool crowCol;
+    private bool catCol;
 
     private void Start()
     {
@@ -18,15 +21,27 @@ public class Pickup : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         //Debug.Log("Enter");
-        if (other.tag == "Player")
-            isColliding = true;
+        if (other.tag == "Racoon")
+            racoonCol = true;
+        if (other.tag == "Fox")
+            foxCol = true;
+        if (other.tag == "Crow")
+            crowCol = true;
+        if (other.tag == "Cat")
+            catCol = true;
     }
 
     private void OnTriggerExit(Collider other)
     {
-       // Debug.Log("Exit");
-        if (other.tag == "Player")
-            isColliding = false;
+        // Debug.Log("Exit");
+        if (other.tag == "Racoon")
+            racoonCol = false;
+        if (other.tag == "Fox")
+            foxCol = false;
+        if (other.tag == "Crow")
+            crowCol = false;
+        if (other.tag == "Cat")
+            catCol = false;
     }
 
 
@@ -34,11 +49,15 @@ public class Pickup : MonoBehaviour
     {
         // if player uses the firekey and Is colliding then they well pick up the ite´m
 
-        if (Input.GetKeyDown(fireKey) && isColliding)
+        if (Input.GetKeyDown(KeyCode.V) && racoonCol)
         {
             Manager.PickItUp(transform.gameObject);
-            isColliding = false;
-
+            racoonCol = false;
+        }
+        if (Input.GetKeyDown(KeyCode.RightControl) && foxCol)
+        {
+            Manager.PickItUp(transform.gameObject);
+            foxCol = false;
         }
 
     }

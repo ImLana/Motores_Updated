@@ -8,6 +8,10 @@ TagManager:
   - Placeholder
   - Manager
   - Trap
+  - Racoon
+  - Fox
+  - Crow
+  - Cat
   layers:
   - Default
   - TransparentFX
