@@ -14,7 +14,7 @@ public class Trap : MonoBehaviour
     public void OnTriggerEnter(Collider collider)
     {
         // Only Players can collide
-        if (collider.gameObject.CompareTag("Player"))
+        if (collider.gameObject.CompareTag("Racoon") || collider.gameObject.CompareTag("Fox") || collider.gameObject.CompareTag("Crow") || collider.gameObject.CompareTag("Cat"))
         {
             moveScript = collider.GetComponent<Controller>();
             

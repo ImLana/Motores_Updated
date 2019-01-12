@@ -14,7 +14,8 @@ public class Score : MonoBehaviour
     public KeyCode trapKey;
 
     public GameObject trap;
-    public int trapDisplacement;
+    public float trapDisplacement;
+
 
     // Use this for initialization
     void Start()
@@ -30,6 +31,7 @@ public class Score : MonoBehaviour
             if (count >= 500)
             {
                 count = count - 500;
+                Instantiate(trap, transform.position + (transform.forward * 1), transform.rotation);
                 SetCountText();
             }
 
