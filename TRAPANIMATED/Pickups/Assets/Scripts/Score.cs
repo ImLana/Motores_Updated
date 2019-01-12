@@ -11,50 +11,48 @@ public class Score : MonoBehaviour
     public Text countText;
     private bool trigger;
     private GameObject treasure;
+    public KeyCode fireKey;
 
     // Use this for initialization
     void Start()
     {
         count = 0;
         SetCountText();
-
-
     }
 
-    void update()
+    void Update()
     {
-        if (trigger && Input.GetKey(KeyCode.A))
+        if (trigger && Input.GetKeyDown(fireKey))
         {
-            treasure.gameObject.SetActive(false);
-            count = count + 1;
+            count = count + 100;
             SetCountText();
+            trigger = false;
         }
     }
 
 
     void SetCountText()
     {
-        countText.text = name + count.ToString();
+        countText.text = name + " - " + count.ToString() + "$";
     }
 
     // Detecs player on treasure collider
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.tag == "Pickup")
         {
             trigger = true;
-            treasure = other.gameObject;
-
+            Debug.Log("In");
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.tag == "Pickup")
         {
             trigger = false;
-            treasure = other.gameObject;
+            Debug.Log("Out");
         }
     }
 }
