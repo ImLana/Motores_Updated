@@ -34,7 +34,7 @@ public class PlacePickups : MonoBehaviour
         if (Time.time - lastUpdateTime >= reactivateDelay)
         {
             InstantiateMissingObjects();
-            lastUpdateTime = Time.time;
+            lastUpdateTime = Time.time + 10f;
         }
     }
 
