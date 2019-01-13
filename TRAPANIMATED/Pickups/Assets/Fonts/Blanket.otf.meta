@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: e11cf8708295e1547ac82ba3ab9e6b32
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Blanket
+  fontNames:
+  - Blanket
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 2aa491477cc78df43bfb683a7a627876, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
