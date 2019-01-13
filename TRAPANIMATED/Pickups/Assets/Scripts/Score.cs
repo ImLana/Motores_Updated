@@ -61,7 +61,7 @@ public class Score : MonoBehaviour
 
     void SetCountText()
     {
-        countText.text = name + " - " + count.ToString() + "$";
+        countText.text = "  " + count.ToString() + "$";
     }
 
     // Detecs player on treasure collider
