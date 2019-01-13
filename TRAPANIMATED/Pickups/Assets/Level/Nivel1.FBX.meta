@@ -370,7 +370,47 @@ ModelImporter:
     4300136: Spawn4
     4300138: Spawn1
     4300140: Floor
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #2'
+    second: {fileID: 2100000, guid: ffc3c5da7cecd684890ae9b2e0585ebe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 4d56b00ca38ac094796536bc5907041d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bifrostLiquidMaterial2
+    second: {fileID: 2100000, guid: e9f7749ccf29d6a4f87163b677aa2221, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 2ad7428c63d4e5749b4b65ba1ac57545, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong1
+    second: {fileID: 2100000, guid: 25ea3bab77122074388500bb59c536d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'phong1 #1'
+    second: {fileID: 2100000, guid: 12108980358b5234cad16d434eff0bc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'phong1 #2'
+    second: {fileID: 2100000, guid: b3a3ac8f8c899bf4b8edb1c3aa43af9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong2
+    second: {fileID: 2100000, guid: 12108980358b5234cad16d434eff0bc7, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
