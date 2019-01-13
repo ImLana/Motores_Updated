@@ -16,6 +16,7 @@ public class Score : MonoBehaviour
     public KeyCode trapKey;
 
     public GameObject Trap;
+    public GameObject Diamond;
     public Vector3 displacementFromTrap;
 
     
@@ -42,7 +43,8 @@ public class Score : MonoBehaviour
         if (trigger && Input.GetKeyDown(fireKey))
         {
             IsHolding = true;
-            
+            Diamond.SetActive(true);
+
         }
 
         if (IsHolding & AtRespawn && Input.GetKeyDown(fireKey))
@@ -51,6 +53,7 @@ public class Score : MonoBehaviour
             SetCountText();
             trigger = false;
             IsHolding = false;
+            Diamond.SetActive(false);
 
         }
     }
