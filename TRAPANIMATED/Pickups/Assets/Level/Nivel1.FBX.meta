@@ -1,0 +1,454 @@
+fileFormatVersion: 2
+guid: ce339d42c292faf42bd2f544d45ffdd5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Box010
+    100002: Box011
+    100004: Box012
+    100006: Box013
+    100008: Box014
+    100010: Box016
+    100012: Box017
+    100014: Box020
+    100016: Box028
+    100018: Box029
+    100020: Cone002
+    100022: Cone003
+    100024: counterdireita
+    100026: Counteresquerda
+    100028: Cylinder001
+    100030: Cylinder008
+    100032: Cylinder009
+    100034: Cylinder010
+    100036: Cylinder011
+    100038: Cylinder012
+    100040: Cylinder013
+    100042: Floor
+    100044: Glass
+    100046: glass002
+    100048: glass003
+    100050: glass004
+    100052: glass005
+    100054: Glass007
+    100056: Glass008
+    100058: Glass009
+    100060: Glass010
+    100062: Glass011
+    100064: Glass014
+    100066: mesa centro
+    100068: mesa direita
+    100070: mesa esquerda
+    100072: //RootNode
+    100074: Pillow
+    100076: Pillow014
+    100078: Pillow015
+    100080: Pillow016
+    100082: Pillow017
+    100084: Pillow018
+    100086: Pillow019
+    100088: Pillow020
+    100090: Pillow021
+    100092: Pillow022
+    100094: Pillow023
+    100096: Pillow024
+    100098: Pillow025
+    100100: Pillow026
+    100102: Pillow027
+    100104: Pillow030
+    100106: Pillow031
+    100108: Pillow032
+    100110: Pillow033
+    100112: Roundcounter esq
+    100114: roundcounterdireito
+    100116: Shelfdireiraup
+    100118: ShelfDireitadown
+    100120: Shelfesquedaup
+    100122: Shelfesquerdadown
+    100124: Showcasedown
+    100126: Showcaseup
+    100128: Spawn1
+    100130: Spawn2
+    100132: Spawn3
+    100134: Spawn4
+    100136: Sphere006
+    100138: Sphere007
+    100140: Squematics
+    100142: Walls
+    100144: Wood011
+    400000: Box010
+    400002: Box011
+    400004: Box012
+    400006: Box013
+    400008: Box014
+    400010: Box016
+    400012: Box017
+    400014: Box020
+    400016: Box028
+    400018: Box029
+    400020: Cone002
+    400022: Cone003
+    400024: counterdireita
+    400026: Counteresquerda
+    400028: Cylinder001
+    400030: Cylinder008
+    400032: Cylinder009
+    400034: Cylinder010
+    400036: Cylinder011
+    400038: Cylinder012
+    400040: Cylinder013
+    400042: Floor
+    400044: Glass
+    400046: glass002
+    400048: glass003
+    400050: glass004
+    400052: glass005
+    400054: Glass007
+    400056: Glass008
+    400058: Glass009
+    400060: Glass010
+    400062: Glass011
+    400064: Glass014
+    400066: mesa centro
+    400068: mesa direita
+    400070: mesa esquerda
+    400072: //RootNode
+    400074: Pillow
+    400076: Pillow014
+    400078: Pillow015
+    400080: Pillow016
+    400082: Pillow017
+    400084: Pillow018
+    400086: Pillow019
+    400088: Pillow020
+    400090: Pillow021
+    400092: Pillow022
+    400094: Pillow023
+    400096: Pillow024
+    400098: Pillow025
+    400100: Pillow026
+    400102: Pillow027
+    400104: Pillow030
+    400106: Pillow031
+    400108: Pillow032
+    400110: Pillow033
+    400112: Roundcounter esq
+    400114: roundcounterdireito
+    400116: Shelfdireiraup
+    400118: ShelfDireitadown
+    400120: Shelfesquedaup
+    400122: Shelfesquerdadown
+    400124: Showcasedown
+    400126: Showcaseup
+    400128: Spawn1
+    400130: Spawn2
+    400132: Spawn3
+    400134: Spawn4
+    400136: Sphere006
+    400138: Sphere007
+    400140: Squematics
+    400142: Walls
+    400144: Wood011
+    2100000: phong2
+    2100002: lambert1
+    2100004: phong1
+    2100006: No Name
+    2100008: 'phong1 #2'
+    2100010: 'phong1 #1'
+    2100012: bifrostLiquidMaterial2
+    2100014: 'Material #2'
+    2300000: Box010
+    2300002: Box011
+    2300004: Box012
+    2300006: Box013
+    2300008: Box014
+    2300010: Box016
+    2300012: Box017
+    2300014: Box020
+    2300016: Box028
+    2300018: Box029
+    2300020: Cone002
+    2300022: Cone003
+    2300024: counterdireita
+    2300026: Counteresquerda
+    2300028: Cylinder001
+    2300030: Cylinder008
+    2300032: Cylinder009
+    2300034: Cylinder010
+    2300036: Cylinder011
+    2300038: Cylinder012
+    2300040: Cylinder013
+    2300042: Floor
+    2300044: Glass
+    2300046: glass002
+    2300048: glass003
+    2300050: glass004
+    2300052: glass005
+    2300054: Glass007
+    2300056: Glass008
+    2300058: Glass009
+    2300060: Glass010
+    2300062: Glass011
+    2300064: Glass014
+    2300066: mesa centro
+    2300068: mesa direita
+    2300070: mesa esquerda
+    2300072: Pillow
+    2300074: Pillow014
+    2300076: Pillow015
+    2300078: Pillow016
+    2300080: Pillow017
+    2300082: Pillow018
+    2300084: Pillow019
+    2300086: Pillow020
+    2300088: Pillow021
+    2300090: Pillow022
+    2300092: Pillow023
+    2300094: Pillow024
+    2300096: Pillow025
+    2300098: Pillow026
+    2300100: Pillow027
+    2300102: Pillow030
+    2300104: Pillow031
+    2300106: Pillow032
+    2300108: Pillow033
+    2300110: Roundcounter esq
+    2300112: roundcounterdireito
+    2300114: Shelfdireiraup
+    2300116: ShelfDireitadown
+    2300118: Shelfesquedaup
+    2300120: Shelfesquerdadown
+    2300122: Showcasedown
+    2300124: Showcaseup
+    2300126: Spawn1
+    2300128: Spawn2
+    2300130: Spawn3
+    2300132: Spawn4
+    2300134: Sphere006
+    2300136: Sphere007
+    2300138: Squematics
+    2300140: Walls
+    3300000: Box010
+    3300002: Box011
+    3300004: Box012
+    3300006: Box013
+    3300008: Box014
+    3300010: Box016
+    3300012: Box017
+    3300014: Box020
+    3300016: Box028
+    3300018: Box029
+    3300020: Cone002
+    3300022: Cone003
+    3300024: counterdireita
+    3300026: Counteresquerda
+    3300028: Cylinder001
+    3300030: Cylinder008
+    3300032: Cylinder009
+    3300034: Cylinder010
+    3300036: Cylinder011
+    3300038: Cylinder012
+    3300040: Cylinder013
+    3300042: Floor
+    3300044: Glass
+    3300046: glass002
+    3300048: glass003
+    3300050: glass004
+    3300052: glass005
+    3300054: Glass007
+    3300056: Glass008
+    3300058: Glass009
+    3300060: Glass010
+    3300062: Glass011
+    3300064: Glass014
+    3300066: mesa centro
+    3300068: mesa direita
+    3300070: mesa esquerda
+    3300072: Pillow
+    3300074: Pillow014
+    3300076: Pillow015
+    3300078: Pillow016
+    3300080: Pillow017
+    3300082: Pillow018
+    3300084: Pillow019
+    3300086: Pillow020
+    3300088: Pillow021
+    3300090: Pillow022
+    3300092: Pillow023
+    3300094: Pillow024
+    3300096: Pillow025
+    3300098: Pillow026
+    3300100: Pillow027
+    3300102: Pillow030
+    3300104: Pillow031
+    3300106: Pillow032
+    3300108: Pillow033
+    3300110: Roundcounter esq
+    3300112: roundcounterdireito
+    3300114: Shelfdireiraup
+    3300116: ShelfDireitadown
+    3300118: Shelfesquedaup
+    3300120: Shelfesquerdadown
+    3300122: Showcasedown
+    3300124: Showcaseup
+    3300126: Spawn1
+    3300128: Spawn2
+    3300130: Spawn3
+    3300132: Spawn4
+    3300134: Sphere006
+    3300136: Sphere007
+    3300138: Squematics
+    3300140: Walls
+    4300000: mesa centro
+    4300002: Glass
+    4300004: Pillow
+    4300006: Cylinder001
+    4300008: Walls
+    4300010: Glass007
+    4300012: Pillow014
+    4300014: Pillow015
+    4300016: Pillow016
+    4300018: Pillow017
+    4300020: Pillow018
+    4300022: Pillow019
+    4300024: Pillow020
+    4300026: roundcounterdireito
+    4300028: Glass008
+    4300030: Pillow021
+    4300032: Pillow022
+    4300034: Pillow023
+    4300036: Pillow024
+    4300038: Pillow025
+    4300040: Pillow026
+    4300042: Pillow027
+    4300044: Roundcounter esq
+    4300046: Shelfesquedaup
+    4300048: glass002
+    4300050: Box010
+    4300052: Glass009
+    4300054: Showcasedown
+    4300056: Box011
+    4300058: Cylinder008
+    4300060: Cylinder009
+    4300062: Box012
+    4300064: Glass010
+    4300066: Box013
+    4300068: Sphere006
+    4300070: Cone002
+    4300072: Cylinder010
+    4300074: Cylinder011
+    4300076: Cylinder012
+    4300078: Cylinder013
+    4300080: Box014
+    4300082: Cone003
+    4300084: Sphere007
+    4300086: Counteresquerda
+    4300088: Squematics
+    4300090: Shelfesquerdadown
+    4300092: glass003
+    4300094: Box016
+    4300096: Glass011
+    4300098: Pillow030
+    4300100: Box017
+    4300102: Pillow031
+    4300104: mesa esquerda
+    4300106: Box020
+    4300108: Spawn3
+    4300110: Spawn2
+    4300112: ShelfDireitadown
+    4300114: Shelfdireiraup
+    4300116: Box028
+    4300118: Box029
+    4300120: Glass014
+    4300122: Pillow032
+    4300124: Pillow033
+    4300126: mesa direita
+    4300128: glass004
+    4300130: glass005
+    4300132: counterdireita
+    4300134: Showcaseup
+    4300136: Spawn4
+    4300138: Spawn1
+    4300140: Floor
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
