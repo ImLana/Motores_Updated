@@ -307,7 +307,7 @@ RectTransform:
   m_LocalScale: {x: 0.032915566, y: 0.032915566, z: 0.032915566}
   m_Children: []
   m_Father: {fileID: 1988598962}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -376,7 +376,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1988598962}
-  m_RootOrder: 1
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -395,7 +395,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.53631186, g: 0.83122903, b: 0.8679245, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -512,7 +512,7 @@ RectTransform:
   m_Children:
   - {fileID: 1005735011}
   m_Father: {fileID: 1988598962}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -582,7 +582,7 @@ RectTransform:
   m_Children:
   - {fileID: 1450796068}
   m_Father: {fileID: 1988598962}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -1616,16 +1616,16 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1242647129}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.14632845, w: 0.98923606}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5831369, y: 0.5831369, z: 0.5831369}
+  m_LocalScale: {x: 4.1343412, y: 4.1343412, z: 4.1343412}
   m_Children: []
-  m_Father: {fileID: 1988598962}
+  m_Father: {fileID: 1409055670}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -16.828001}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 19}
+  m_AnchoredPosition: {x: 5.0006104, y: 1191.9999}
   m_SizeDelta: {x: 353.2, y: 52.099976}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1242647131
@@ -1654,7 +1654,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.3018868, g: 0.25413778, b: 0.06123176, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1965,7 +1965,7 @@ RectTransform:
   m_LocalScale: {x: 0.03645827, y: 0.03645827, z: 0.03645827}
   m_Children: []
   m_Father: {fileID: 1988598962}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -2079,14 +2079,15 @@ RectTransform:
   m_GameObject: {fileID: 1409055669}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.07628696, y: 0.07628696, z: 0.07628696}
-  m_Children: []
+  m_LocalScale: {x: 0.073235475, y: 0.073235475, z: 0.073235475}
+  m_Children:
+  - {fileID: 1242647130}
   m_Father: {fileID: 1988598962}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 20, y: -20}
+  m_AnchoredPosition: {x: 21.2, y: -19.7}
   m_SizeDelta: {x: 2287, y: 2301}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &1409055671
@@ -2122,7 +2123,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 7a1ad81f7deb7524a852976838a58e0a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4b0bff71ec39d8c4b86e43c445799205, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -3085,12 +3086,11 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 1242647130}
-  - {fileID: 168775293}
   - {fileID: 192945616}
   - {fileID: 453893081}
   - {fileID: 133345687}
   - {fileID: 1351419788}
+  - {fileID: 168775293}
   - {fileID: 1409055670}
   m_Father: {fileID: 0}
   m_RootOrder: 17
