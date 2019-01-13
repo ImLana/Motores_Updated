@@ -10,14 +10,15 @@ public class Score : MonoBehaviour
     public string name;
     public Text countText;
     private bool trigger;
+    private bool IsHolding;
+    private bool AtRespawn;
     public KeyCode fireKey;
     public KeyCode trapKey;
 
     public GameObject Trap;
     public Vector3 displacementFromTrap;
 
-
-
+    
     // Use this for initialization
     void Start()
     {
@@ -40,10 +41,17 @@ public class Score : MonoBehaviour
 
         if (trigger && Input.GetKeyDown(fireKey))
         {
+            IsHolding = true;
+            
+        }
+
+        if (IsHolding & AtRespawn && Input.GetKeyDown(fireKey))
+        {
             count = count + 100;
             SetCountText();
             trigger = false;
-            
+            IsHolding = false;
+
         }
     }
 
@@ -60,7 +68,13 @@ public class Score : MonoBehaviour
         if (other.tag == "Pickup")
         {
             trigger = true;
-            Debug.Log("In");
+           // Debug.Log("In");
+        }
+
+        if (other.tag == "Respawn")
+        {
+            AtRespawn = true;
+            Debug.Log("InRespawn");
         }
     }
 
@@ -69,7 +83,15 @@ public class Score : MonoBehaviour
         if (other.tag == "Pickup")
         {
             trigger = false;
-            Debug.Log("Out");
+           // Debug.Log("Out");
+        }
+
+        if(other.tag == "Respawn")
+        {
+            AtRespawn = false;
+            Debug.Log("OutRespawn");
         }
     }
+
+  
 }
