@@ -60,6 +60,17 @@ public class Pickup : MonoBehaviour
             foxCol = false;
         }
 
+        if (Input.GetKeyDown(KeyCode.Joystick1Button10) && catCol)
+        {
+            Manager.PickItUp(transform.gameObject);
+            catCol = false;
+        }
+
+        if (Input.GetKeyDown(KeyCode.Joystick2Button0) && crowCol)
+        {
+            Manager.PickItUp(transform.gameObject);
+            crowCol = false;
+        }
     }
 
 }
