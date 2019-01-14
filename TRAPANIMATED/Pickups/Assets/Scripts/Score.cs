@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using System.Linq;
 
 public class Score : MonoBehaviour
 {
-
-    private int count;
-    public string name;
+    public float count;
     public Text countText;
+
     private bool trigger;
     private bool IsHolding;
     private bool AtRespawn;
@@ -19,7 +19,6 @@ public class Score : MonoBehaviour
     public GameObject Diamond;
     public Vector3 displacementFromTrap;
 
-    
     // Use this for initialization
     void Start()
     {
@@ -31,20 +30,18 @@ public class Score : MonoBehaviour
     {
         if (Input.GetKeyDown(trapKey))
         {
-            if (count >= 500)
+            if (count >= 500) //trap
             {
                 count = count - 500;
                 Instantiate(Trap, transform.position + displacementFromTrap + (transform.forward * 2), transform.rotation);
                 SetCountText();
             }
-
         }
 
         if (trigger && Input.GetKeyDown(fireKey))
         {
             IsHolding = true;
             Diamond.SetActive(true);
-
         }
 
         if (IsHolding & AtRespawn && Input.GetKeyDown(fireKey))
@@ -61,8 +58,9 @@ public class Score : MonoBehaviour
 
     void SetCountText()
     {
-        countText.text = "  " + count.ToString() + "$";
+        countText.text = " " + count.ToString() + "$";
     }
+
 
     // Detecs player on treasure collider
 
@@ -71,7 +69,7 @@ public class Score : MonoBehaviour
         if (other.tag == "Pickup")
         {
             trigger = true;
-           // Debug.Log("In");
+            // Debug.Log("In");
         }
 
         if (other.tag == "Respawn")
@@ -86,15 +84,13 @@ public class Score : MonoBehaviour
         if (other.tag == "Pickup")
         {
             trigger = false;
-           // Debug.Log("Out");
+            // Debug.Log("Out");
         }
 
-        if(other.tag == "Respawn")
+        if (other.tag == "Respawn")
         {
             AtRespawn = false;
             Debug.Log("OutRespawn");
         }
     }
-
-  
 }

@@ -12,6 +12,7 @@ TagManager:
   - Fox
   - Crow
   - Cat
+  - Count
   layers:
   - Default
   - TransparentFX
