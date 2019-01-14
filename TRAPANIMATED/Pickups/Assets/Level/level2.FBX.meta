@@ -1,0 +1,417 @@
+fileFormatVersion: 2
+guid: 8a1ccff785239ef4f97e90f3338c0913
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Anubis
+    100002: Anubis001
+    100004: Anubis002
+    100006: Anubis003
+    100008: Box029
+    100010: Box030
+    100012: Box031
+    100014: Box032
+    100016: Box033
+    100018: Box034
+    100020: Box035
+    100022: Box036
+    100024: bUNNY
+    100026: Cat
+    100028: Crow
+    100030: Cylinder014
+    100032: Cylinder015
+    100034: Cylinder016
+    100036: Cylinder017
+    100038: Cylinder018
+    100040: Floor
+    100042: Fox
+    100044: Glass
+    100046: Glass016
+    100048: Glass022
+    100050: Glass023
+    100052: Glass024
+    100054: Glass025
+    100056: Head
+    100058: lame
+    100060: lame001
+    100062: lame002
+    100064: lame003
+    100066: //RootNode
+    100068: mesa centro
+    100070: mesa centro001
+    100072: mesa direita001
+    100074: mesa direita003
+    100076: Pillow037
+    100078: Pillow041
+    100080: Pillow042
+    100082: Pillow043
+    100084: Pillow044
+    100086: Pillow045
+    100088: Pillow046
+    100090: Pillow047
+    100092: Pillow048
+    100094: Pillow049
+    100096: polySurface002
+    100098: polySurface003
+    100100: polySurface004
+    100102: polySurface005
+    100104: Showcasedown006
+    100106: Showcasedown007
+    100108: Showcasedown008
+    100110: Showcasedown009
+    100112: Showcasedown010
+    100114: Showcasedown011
+    100116: Showcasedown012
+    100118: Spawn004
+    100120: Spawn005
+    100122: Spawn006
+    100124: Spawn3
+    100126: Walls
+    400000: Anubis
+    400002: Anubis001
+    400004: Anubis002
+    400006: Anubis003
+    400008: Box029
+    400010: Box030
+    400012: Box031
+    400014: Box032
+    400016: Box033
+    400018: Box034
+    400020: Box035
+    400022: Box036
+    400024: bUNNY
+    400026: Cat
+    400028: Crow
+    400030: Cylinder014
+    400032: Cylinder015
+    400034: Cylinder016
+    400036: Cylinder017
+    400038: Cylinder018
+    400040: Floor
+    400042: Fox
+    400044: Glass
+    400046: Glass016
+    400048: Glass022
+    400050: Glass023
+    400052: Glass024
+    400054: Glass025
+    400056: Head
+    400058: lame
+    400060: lame001
+    400062: lame002
+    400064: lame003
+    400066: //RootNode
+    400068: mesa centro
+    400070: mesa centro001
+    400072: mesa direita001
+    400074: mesa direita003
+    400076: Pillow037
+    400078: Pillow041
+    400080: Pillow042
+    400082: Pillow043
+    400084: Pillow044
+    400086: Pillow045
+    400088: Pillow046
+    400090: Pillow047
+    400092: Pillow048
+    400094: Pillow049
+    400096: polySurface002
+    400098: polySurface003
+    400100: polySurface004
+    400102: polySurface005
+    400104: Showcasedown006
+    400106: Showcasedown007
+    400108: Showcasedown008
+    400110: Showcasedown009
+    400112: Showcasedown010
+    400114: Showcasedown011
+    400116: Showcasedown012
+    400118: Spawn004
+    400120: Spawn005
+    400122: Spawn006
+    400124: Spawn3
+    400126: Walls
+    2100000: 'phong1 #2'
+    2100002: phong2
+    2100004: lambert1
+    2100006: No Name
+    2100008: phong1
+    2100010: 12345_Statue_v1_l1__12345_Statue_v1_l1AnubisDetail
+    2100012: 12345_Statue_v1_l1__12345_Statue_v1_l1Anubis
+    2100014: 12335_The_Thinker_v3_l2_stl_blinn1SG
+    2100016: lame
+    2100018: Material.001
+    2100020: Material
+    2100022: Material.003
+    2300000: Anubis
+    2300002: Anubis001
+    2300004: Anubis002
+    2300006: Anubis003
+    2300008: Box029
+    2300010: Box030
+    2300012: Box031
+    2300014: Box032
+    2300016: Box033
+    2300018: Box034
+    2300020: Box035
+    2300022: Box036
+    2300024: bUNNY
+    2300026: Cat
+    2300028: Crow
+    2300030: Cylinder014
+    2300032: Cylinder015
+    2300034: Cylinder016
+    2300036: Cylinder017
+    2300038: Cylinder018
+    2300040: Floor
+    2300042: Fox
+    2300044: Glass
+    2300046: Glass016
+    2300048: Glass022
+    2300050: Glass023
+    2300052: Glass024
+    2300054: Glass025
+    2300056: Head
+    2300058: lame
+    2300060: lame001
+    2300062: lame002
+    2300064: lame003
+    2300066: mesa centro
+    2300068: mesa centro001
+    2300070: mesa direita001
+    2300072: mesa direita003
+    2300074: Pillow037
+    2300076: Pillow041
+    2300078: Pillow042
+    2300080: Pillow043
+    2300082: Pillow044
+    2300084: Pillow045
+    2300086: Pillow046
+    2300088: Pillow047
+    2300090: Pillow048
+    2300092: Pillow049
+    2300094: polySurface002
+    2300096: polySurface003
+    2300098: polySurface004
+    2300100: polySurface005
+    2300102: Showcasedown006
+    2300104: Showcasedown007
+    2300106: Showcasedown008
+    2300108: Showcasedown009
+    2300110: Showcasedown010
+    2300112: Showcasedown011
+    2300114: Showcasedown012
+    2300116: Spawn004
+    2300118: Spawn005
+    2300120: Spawn006
+    2300122: Spawn3
+    2300124: Walls
+    3300000: Anubis
+    3300002: Anubis001
+    3300004: Anubis002
+    3300006: Anubis003
+    3300008: Box029
+    3300010: Box030
+    3300012: Box031
+    3300014: Box032
+    3300016: Box033
+    3300018: Box034
+    3300020: Box035
+    3300022: Box036
+    3300024: bUNNY
+    3300026: Cat
+    3300028: Crow
+    3300030: Cylinder014
+    3300032: Cylinder015
+    3300034: Cylinder016
+    3300036: Cylinder017
+    3300038: Cylinder018
+    3300040: Floor
+    3300042: Fox
+    3300044: Glass
+    3300046: Glass016
+    3300048: Glass022
+    3300050: Glass023
+    3300052: Glass024
+    3300054: Glass025
+    3300056: Head
+    3300058: lame
+    3300060: lame001
+    3300062: lame002
+    3300064: lame003
+    3300066: mesa centro
+    3300068: mesa centro001
+    3300070: mesa direita001
+    3300072: mesa direita003
+    3300074: Pillow037
+    3300076: Pillow041
+    3300078: Pillow042
+    3300080: Pillow043
+    3300082: Pillow044
+    3300084: Pillow045
+    3300086: Pillow046
+    3300088: Pillow047
+    3300090: Pillow048
+    3300092: Pillow049
+    3300094: polySurface002
+    3300096: polySurface003
+    3300098: polySurface004
+    3300100: polySurface005
+    3300102: Showcasedown006
+    3300104: Showcasedown007
+    3300106: Showcasedown008
+    3300108: Showcasedown009
+    3300110: Showcasedown010
+    3300112: Showcasedown011
+    3300114: Showcasedown012
+    3300116: Spawn004
+    3300118: Spawn005
+    3300120: Spawn006
+    3300122: Spawn3
+    3300124: Walls
+    4300000: Walls
+    4300002: mesa centro
+    4300004: Glass
+    4300006: Spawn3
+    4300008: Box029
+    4300010: Floor
+    4300012: Spawn004
+    4300014: Spawn005
+    4300016: Spawn006
+    4300018: Showcasedown006
+    4300020: Glass016
+    4300022: Pillow037
+    4300024: Anubis
+    4300026: Anubis001
+    4300028: polySurface002
+    4300030: Anubis002
+    4300032: Anubis003
+    4300034: Box030
+    4300036: Box031
+    4300038: Box032
+    4300040: Box033
+    4300042: Box034
+    4300044: Showcasedown007
+    4300046: polySurface003
+    4300048: mesa direita001
+    4300050: Pillow041
+    4300052: Glass022
+    4300054: Cylinder014
+    4300056: Showcasedown008
+    4300058: Showcasedown009
+    4300060: Showcasedown010
+    4300062: Showcasedown011
+    4300064: polySurface004
+    4300066: polySurface005
+    4300068: Glass023
+    4300070: Glass024
+    4300072: Pillow042
+    4300074: Pillow043
+    4300076: Showcasedown012
+    4300078: mesa centro001
+    4300080: mesa direita003
+    4300082: Pillow044
+    4300084: Pillow045
+    4300086: Pillow046
+    4300088: Pillow047
+    4300090: Pillow048
+    4300092: Pillow049
+    4300094: bUNNY
+    4300096: Crow
+    4300098: Fox
+    4300100: Cat
+    4300102: Head
+    4300104: Glass025
+    4300106: lame
+    4300108: lame001
+    4300110: lame002
+    4300112: lame003
+    4300114: Box035
+    4300116: Box036
+    4300118: Cylinder015
+    4300120: Cylinder016
+    4300122: Cylinder017
+    4300124: Cylinder018
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
